@@ -4,7 +4,8 @@
   "description": "Push notifications codelab.",
   "scripts": {
     "lint": "eslint \".\"",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "start": "light-server -s . -p 7000"
   },
   "devDependencies": {
     "eslint": "^3.8.1",
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/GoogleChrome/push-notifications/issues"
   },
-  "homepage": "https://github.com/GoogleChrome/push-notifications#readme"
+  "homepage": "https://github.com/GoogleChrome/push-notifications#readme",
+  "dependencies": {
+    "light-server": "^2.6.1",
+    "web-push": "^3.3.3"
+  }
 }
